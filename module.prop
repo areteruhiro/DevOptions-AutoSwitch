@@ -1,0 +1,6 @@
+id=devmode_cloak
+name=DevOptions AutoSwitch
+version=1.0
+versionCode=1
+author=areteruhiro
+description=選択したアプリの起動中だけ開発者向けオプションとUSBデバッグを一時的に無効化します。アプリへのコード注入は行いません。

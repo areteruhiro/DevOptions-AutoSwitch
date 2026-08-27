@@ -1,0 +1,8 @@
+#!/system/bin/sh
+
+echo 'I/wm_create_activity: [0,123,456,jp.co.smbc.direct/com.smbc.SplashActivity,android.intent.action.MAIN]'
+sleep 1
+echo 'I/wm_set_resumed_activity: [0,jp.co.smbc.direct/com.smbc.LoginActivity,resumeTopActivity]'
+sleep 1
+echo 'I/wm_set_resumed_activity: [0,com.example.home/.MainActivity,resumeTopActivity]'
+

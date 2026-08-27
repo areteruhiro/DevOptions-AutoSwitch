@@ -1,0 +1,4 @@
+#!/system/bin/sh
+
+echo '  mCurrentFocus=Window{123 u0 com.example.home/.MainActivity}'
+

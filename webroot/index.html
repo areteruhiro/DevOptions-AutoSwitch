@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <title>DevOptions AutoSwitch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="page-header">
+    <div class="header-top">
+      <p class="eyebrow">NO INJECTION</p>
+      <select id="language" class="language-select" aria-label="表示言語">
+        <option value="ja">日本語</option>
+        <option value="en">English</option>
+      </select>
+    </div>
+    <h1 data-i18n="heading">対象アプリ</h1>
+    <p class="description" data-i18n="description">開発者向けオプションを一時的に隠すアプリを選択します。</p>
+  </header>
+
+  <main>
+    <label class="search-box">
+      <span class="search-icon" aria-hidden="true"></span>
+      <input id="search" type="search" inputmode="search" placeholder="アプリ名またはパッケージ名で検索" autocomplete="off">
+    </label>
+
+    <div class="list-heading">
+      <span id="selectionCount">0件を選択</span>
+      <span id="resultCount"></span>
+    </div>
+
+    <div id="loading" class="state-card" data-i18n="loading">アプリ一覧を読み込んでいます…</div>
+    <div id="empty" class="state-card hidden" data-i18n="empty">該当するアプリがありません。</div>
+    <div id="appList" class="app-list" role="list"></div>
+  </main>
+
+  <footer class="action-bar">
+    <div id="status" role="status" aria-live="polite"></div>
+    <button id="apply" type="button" disabled>Apply</button>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

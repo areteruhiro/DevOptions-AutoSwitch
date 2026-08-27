@@ -1,0 +1,6 @@
+*.zip
+*.log
+.idea/
+.vscode/
+local.properties
+window*.xml
