@@ -48,8 +48,6 @@ WebUIボタンからも同じ画面を開けます。モジュールWebUIに対�
 - `/data/adb/devmode-cloak/config.conf`: ADB非表示などの設定
 - `/data/adb/devmode-cloak/devmode-cloak.log`: 動作ログ
 
-初期対象は`jp.co.smbc.direct`です。`targets.txt`の変更は即時に読み込まれます。
-
 ### 注意事項
 
 - 対象アプリとAndroidの開発者向けオプション画面を分割表示しないでください。
@@ -107,8 +105,6 @@ module WebUI support retain the terminal-style Action fallback.
 - `/data/adb/devmode-cloak/config.conf`: optional ADB hiding settings
 - `/data/adb/devmode-cloak/devmode-cloak.log`: runtime log
 
-The default target is `jp.co.smbc.direct`. Changes to `targets.txt` are read
-immediately.
 
 ### Notes
 
